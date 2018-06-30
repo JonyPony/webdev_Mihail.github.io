@@ -1,0 +1,174 @@
+img{
+	max-width: 100%;
+}
+body{
+	margin: 0;
+	font-family: 'Roboto';
+
+}
+
+header {
+	background-color: #3a7dfd;
+	background-image: linear-gradient(-147deg, #3a7dfd 0%, #1157db 100%);
+	padding-top: 59px;
+	color: #fff;
+	padding-bottom: 22px;
+}
+.d1{
+	margin-top: 102px;	
+	font-size: 18px;
+}
+.Name{
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 36.81px;
+	margin-top: 21px;
+}
+.classification{
+	font-size: 18px;
+	margin-top: 20px;
+}
+.button{
+
+
+	
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 50px;
+	background-color: #ffffff;
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 55px;
+	padding-right: 55px;
+	margin-top: 33px;
+
+}
+header small{
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	
+	margin-top: 9px;
+}
+.but_small{
+	max-width: 210px
+
+}
+.portfolio_block{
+	background-color: #fff;
+	padding-top: 29px;
+	padding-bottom: 44px;
+}
+.portfolio{
+	background-color: #dddddd;
+	padding-top: 44px;
+	padding-bottom: 71px;
+
+}
+.por_title{
+	text-transform: uppercase;
+	color: #072b6f;
+	font-size: 18px;
+	margin-bottom: 10px;
+
+}
+
+.por_title,.por_text{
+	text-align: center;
+
+}
+.col_content-1{
+	padding-left: 50px;
+	
+}
+.col_content-2{
+
+	padding-right: 50px;
+}
+
+.portfolio_block h3{
+font-weight: 700;
+color: #072b6f;
+font-size: 18px;
+text-transform: uppercase;
+}
+.content_text{
+color: #8f8f8f;
+font-size: 14px;
+font-weight: 400;
+}
+.portfolio_block a{
+color: #072b6f;
+font-size: 14px;
+font-weight: 400;
+text-decoration: underline;
+}
+.por_text{
+	margin-top: 10px;
+	color: #7bb9ff;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+footer{
+	background-color: #3a7dfd;
+	color: #deedfe;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+
+
+#autor{
+color: #fefefe;
+font-size: 24px;
+margin-bottom: 7px;
+margin-left: 200px;
+}
+#f_text{
+	margin-top: 0px;
+	margin-left: 200px;
+}
+.social{
+	text-align: center;
+}
+.social a {
+	display: inline-block;
+	margin-right: 13px;
+	margin-left: 13px;
+}
+#f_wm{
+	margin-bottom: 7px;
+	font-size: 18px;
+	margin-right: 35px;
+	
+}
+.footer_but{
+	border-radius: 24px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	background-color: transparent;
+	color: #fff;
+	font-size: 18px;
+	
+	padding: 15px 40px;
+}
+.footer_cta{
+	text-align: center;
+}
+@media (max-width: 900px) {
+    .header_img {
+        display: none;
+    }
+    #autor{
+    	font-size:20px ;
+    }
+    .social{
+    	font-size: 10px;	
+    }
+    .footer_but{
+    	font-size: 14px;
+    	padding: 8px 35px;
+    }
+
+}
